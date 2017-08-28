@@ -35,8 +35,8 @@ twitter_username: crush_code
  
 # Internal nav
 nav:
- podcasts: "root_url/podcasts/"
- show_notes: "root_url/show_notes/"
+ writing: "root_url/writing/"
+ gallery: "root_url/gallery/"
  about: "root_url/about/"
 
 
