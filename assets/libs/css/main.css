@@ -419,3 +419,57 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #0085a1;
 }
+
+/* Images */
+.leftImage, .rightImage {
+  overflow: hidden;
+}
+
+.leftImage img, .rightImage img {
+  width: 200px;
+  height: auto;
+  border-radius: 10%;
+}
+
+.leftImage {
+  float: left;
+}
+
+.rightImage {
+  float: right;
+}
+
+/* The ribbons */
+
+.corner-ribbon{
+  width: 200px;
+  background: transparent;
+  position: relative;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: black;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  font-family: "Great Vibes", cursive;
+  font-weight: bold;
+}
+
+/* Different positions */
+
+.corner-ribbon.top-left{
+  top: 55px;
+  left: -65px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.corner-ribbon.top-right{
+  top: 50px;
+  right: -65px;
+  left: auto;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
