@@ -473,3 +473,7 @@ body {
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }
+
+.fa-stack.fa-2x {
+  margin-top: 60px;
+}
