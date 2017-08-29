@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Markdown Cheatsheet
-subtitle: This is Markdown Cheatsheet for MAD4Jekyll
-date:       2015-11-25 12:00:00
+title: Episode 1
+subtitle: A Vue View for You
+date:       2017-08-06 12:00:00
 author:     "CodeCRUSH"
 header-img: "assets/owner/blog/header/post-bg-02.jpg"
 thumbnail: /assets/owner/blog/thumbs/thumb02.png
-tags: [tag-name-one, tag-name-two]
-categories: [cat01, cat02]
+tags: [javascript]
+categories: [new technology]
 ---
 
 > This is Markdown Cheatsheet for **MAD4Jekyll**, this Jekyll theme. Please check the raw content of this file for the markdown usage.
