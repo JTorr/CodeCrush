@@ -1,70 +1,53 @@
 ---
 layout: page
 title: "Show Notes"
-description: "all-time favorites"
-header-img: "assets/owner/hero/gallery-bg.jpg"
+description: "Because We All Zone Out Sometimes"
+header-img: "assets/owner/typewriter.jpg"
 permalink: /show_notes/
 ---
 
-<html class="no-js" lang="en">
-<head>
-	<meta content="charset=utf-8">
+{% for post in paginator.posts %}
 
-<h3><a href="http://flexslider.woothemes.com/basic-slider-with-caption.html">FLEXSLIDER</a> is here!!!</h3> 
-  
-<!-- CSS -->
-	<link rel="stylesheet" href="../assets/libs/css/flexslider.css" type="text/css" media="screen" />
 
-</head>
+{% assign post = site.posts.first %}
+{% assign content = post.content %}
 
-    <body>
-  <!-- slider -->
-    <section class="slider">
-	<div class="flexslider">
-   <ul class="slides">
-    <li>
-      <img src="{{root_url}}/assets/owner/slider/bg1.jpg" />
-<p class="flex-caption">Source: <a href="https://unsplash.com/">Unsplash</a></p>
-    </li>
-    <li>
-      <img src="{{root_url}}/assets/owner/slider/bg2.jpg" />
-<p class="flex-caption">Source: <a href="https://unsplash.com/">Unsplash</a></p>
-    </li>
-    <li>
-      <img src="{{root_url}}/assets/owner/slider/bg3.jpg" />
-<p class="flex-caption">Source: <a href="https://unsplash.com/">Unsplash</a></p>
-    </li>
-      </ul>
+
+<div class="post-preview">
+  <a href="{{ post.url | prepend: site.baseurl }}">
+    {% if post.thumbnail %}
+    <img src="{{ post.thumbnail }}" style="float: left; margin: 8px 10px 0px 10px;">
+    {% endif %}
+
+
+    <h2 class="post-title">  {{ root_url }}   {{ post.title }}
+    </h2>
+    {% if post.subtitle %}
+    <h3 class="post-subtitle">  {{ root_url }}
+      {{ post.subtitle }}
+    </h3>
+    {% endif %}
+  </a>
+  <p class="post-meta">Posted by {% if post.author %}{{ root_url }}{{ post.author }}{% else %}{{ root_url }}{{ site.title }}{% endif %} on {{ root_url }}{{ post.date | date: "%B %-d, %Y" }}</p>
 </div>
-      </section>
+{% endfor %}
+<p>&nbsp;</p>
 
-<!-- jQuery -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+<ul class="pager">
+  {% if paginator.previous_page %}
+  <li class="previous">
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+  </li>
+  {% endif %}
+  <span class="button-height" style="
+    font-size:.45em;"> Page {{ root_url }}{{paginator.page}} of {{ root_url }}{{paginator.total_pages}}</span>
 
-  <!-- FlexSlider -->
-  <script defer src="../assets/libs/js/jquery.flexslider.js"></script>
-
-  <script type="text/javascript">
-    $(function(){
-      SyntaxHighlighter.all();
-    });
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        slideshow: "false",
-        slideshowSpeed: "12000",
-        pausePlay: "true",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-  </script>
-
-<br>
-<h6>Image Source: <a href="https://unsplash.com/photos/YOT6kS8YtEA">UNSPLASH</a>
-
-
-
-</body></html>
+  {% if paginator.next_page %}
+  <li class="next">
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+  </li>
+  {% endif %}
+</ul>
+{% endif %}
