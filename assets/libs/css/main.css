@@ -225,13 +225,13 @@ hr.small {
     border-color: #080808;
 }
 .post-preview > a {
-  color: #D6799D;
+  color: #fff2e6;
   text-decoration: none;
 }
 .post-preview > a:hover,
 .post-preview > a:focus {
   text-decoration: none;
-  color: #dc8dac;
+  color: #ffbf80;
 }
 .post-preview > a > .post-title {
   font-size: 30px;

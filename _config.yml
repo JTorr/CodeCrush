@@ -1,6 +1,6 @@
 # Site settings
 title: "CodeCRUSH"
-description: Code with a Side of Giggle
+description: The Podcast for Developers With Short Attention Spans
 
 # Files
 baseurl:
@@ -69,8 +69,8 @@ kramdown:
 sass:
     style:          :compressed
 paginate: 5
-paginate_path: "/episodes/page:num/"
-permalink: "/episodes/:title/"
+paginate_path: "/writing/page:num/"
+permalink: "/writing/:title/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 slugify: "pretty"
 
