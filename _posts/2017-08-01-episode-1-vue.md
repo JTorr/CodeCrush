@@ -5,7 +5,7 @@ subtitle: A Vue View for You
 date:       2017-08-06 12:00:00
 author:     "CodeCRUSH"
 header-img: "assets/owner/hero/microphone.jpg"
-thumbnail: /assets/owner/hero/vue_logo.png
+thumbnail: /CodeCrush/assets/owner/hero/vue_logo.png
 tags: [javascript]
 categories: [new technology]
 ---

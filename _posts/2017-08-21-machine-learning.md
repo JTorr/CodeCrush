@@ -5,7 +5,7 @@ subtitle:   "The Machines Are Learning!!!"
 date:       2017-08-21 12:00:00
 author:     "Code Crush"
 header-img: "assets/owner/blog/header/post-bg-01.jpg"
-thumbnail: /assets/owner/hero/no_brain.jpg
+thumbnail: /CodeCrush/assets/owner/hero/no_brain.jpg
 tags: []
 category: [new technology]
 comments: true
