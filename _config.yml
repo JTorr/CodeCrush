@@ -12,6 +12,7 @@ logo: logo.png
 discus_shortname: CodeCRUSH
 email: codecrushme@gmail.com
 url: "https://jtorr.github.io/CodeCrush/"
+root_url: "https://jtorr.github.io/CodeCrush/"
 search: true
 share: true
 comments: true
