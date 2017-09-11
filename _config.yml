@@ -12,7 +12,6 @@ logo: logo.png
 discus_shortname: CodeCRUSH
 email: codecrushme@gmail.com
 url: "https://jtorr.github.io/CodeCrush/"
-root_url: "https://jtorr.github.io/CodeCrush/"
 search: true
 share: true
 comments: true
@@ -36,9 +35,9 @@ twitter_username: crush_code
  
 # Internal nav
 nav:
- episodes: "root_url/episodes/"
- show_notes: "root_url/show_notes/"
- about: "root_url/about/"
+ episodes: "root_url/CodeCrush/episodes/"
+ show_notes: "root_url/CodeCrush/show_notes/"
+ about: "root_url/CodeCrush/about/"
 
 
 # Server
