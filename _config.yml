@@ -35,9 +35,9 @@ twitter_username: crush_code
  
 # Internal nav
 nav:
- episodes: "root_url/CodeCrush/episodes/"
- show_notes: "root_url/CodeCrush/show_notes/"
- about: "root_url/CodeCrush/about/"
+ episodes: "root_url/episodes/"
+ show_notes: "root_url/show_notes/"
+ about: "root_url/about/"
 
 
 # Server
