@@ -17,7 +17,7 @@ categories: [new technology]
 Vue.js is a "progressive Javascript framework". That means it's a framework that
 allows Javascript to progressively take over your life. Not to be confused with
 "fiscally conservative Javascript frameworks", which compile to a minimal number
-of bytes.[^1]
+of bytes.
 
 
 ___
@@ -32,5 +32,3 @@ ___
 | [Element UI](http://element.eleme.io/#/en-US) | A Bootstrap alternative that works beautifully with Vue.js  |
 
 ___
-
-[^1]: We might have made this up.
