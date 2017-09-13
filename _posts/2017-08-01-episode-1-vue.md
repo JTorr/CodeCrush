@@ -19,11 +19,9 @@ allows Javascript to progressively take over your life. Not to be confused with
 "fiscally conservative Javascript frameworks", which compile to a minimal number
 of bytes.
 
-
 ___
 
 ## Our Favorite Vue.js Resources
-
 
 | Resource                  | Notes  |
 |:--------------------------| :-----|
