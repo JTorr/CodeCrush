@@ -26,13 +26,12 @@ possibilities. After that, check out the other resources below.
 
 ___
 
-## Our Favorite Vue.js Resources
+## Our Favorite Machine LEarning Resources
 
 
 * [Visual Intro to Machine Learning](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
 * [A Friendly Intro to Machine Learning Video](https://www.youtube.com/watch?v=IpGxLWOIZy4)
-* [Machine Learning is Fun](http://element.eleme.io/#/en-US) 
-* [Machine Learning is Fun](http://element.eleme.io/#/en-US) 
+* [Machine Learning is Fun](https://youtu.be/IpGxLWOIZy4) 
 * Machine Learning Guide Podcast 
 
 ___
