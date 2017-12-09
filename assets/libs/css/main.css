@@ -223,6 +223,7 @@ hr.small {
     border-bottom-style: outset;
     border-width: thin;
     border-color: #080808;
+    overflow: hidden;
 }
 .post-preview > a {
   color: #fff2e6;
