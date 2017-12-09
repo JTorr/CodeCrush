@@ -69,7 +69,7 @@ sass:
     style:          :compressed
 paginate: 5
 paginate_path: "/show_notes/page:num/"
-permalink: "/show_notes/:title/"
+permalink: "/writing/:title/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 slugify: "pretty"
 
